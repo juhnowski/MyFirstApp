@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)ActionButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+- (IBAction)segmentControl:(id)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentOutlet;
 
-
+- (IBAction)ManualButton:(id)sender;
 @end
 

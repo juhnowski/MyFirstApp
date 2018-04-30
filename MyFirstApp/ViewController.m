@@ -26,4 +26,13 @@
 }
 
 
+- (IBAction)ActionButton:(id)sender {
+    
+}
+- (IBAction)segmentControl:(id)sender {
+}
+
+- (IBAction)ManualButton:(id)sender {
+}
+
 @end
